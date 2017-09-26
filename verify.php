@@ -4,4 +4,4 @@
 $apiKey="";
 
 $url= file_get_contents('http://zameer.us/certsign/api.php?key='.$apiKey.'&url=https://Link/To/build.php?name='.$_GET['name']);
-echo file_get_contents(json_decode($url));
+echo file_get_contents($url);
